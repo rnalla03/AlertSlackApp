@@ -3,7 +3,7 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/", async function (req, res, next) {
-  const symbol = "SHOP";
+  const symbol = "AAPL";
   const result = await Axios.get(
     `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${process.env.API_KEY}`
   );
