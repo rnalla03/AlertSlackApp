@@ -1,7 +1,6 @@
 # Simple Slack App
 
-This demo, within `routes/alert.js` will post the latest stock price of SHOP into a Slack channel.
+In this Demo, I will track a certain stock price and automatically display it into neccesary Slack channel using post hook from Slack API
 
-- Video: https://youtu.be/nyaCol4IH5c
-- Slack Apps: https://api.slack.com/apps
-- Slack Block Builder: https://api.slack.com/tools/block-kit-builder
+- Currently set Stock is AAPL
+
