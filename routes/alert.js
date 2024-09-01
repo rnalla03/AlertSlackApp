@@ -12,7 +12,7 @@ router.get("/", async function (req, res, next) {
     result.data["Time Series (Daily)"][lastRefreshed]["4. close"];
 
   await Axios.post(
-    `https://hooks.slack.com/services/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`,
+    // this is where we would put our channel web hook url,
     {
       blocks: [
         {
